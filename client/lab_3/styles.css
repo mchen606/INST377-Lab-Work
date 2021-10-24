@@ -18,19 +18,9 @@
     border: 1px solid #fff;
     width: 900px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
   }
-
-  .menu.date {
-      margin-right: auto;
-  }
-
-  .menu.signup {
-
-    border-left: 1px solid #fff;
-    padding-left 10px;
-  }
-
   .links{
 
     border: 1px solid #fff;
