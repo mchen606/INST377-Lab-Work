@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Michael Chen Lab 5: HTML Forms</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="notification is-warning">
+        Michael Chen Lab 5: HTML Forms
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="coulmn is-vcentered">
+          <div class="column is-one-quarter">
+            <form action="/api" method="get" class="box">
+              <div class="field">
+                <label class="label">First Name</label>
+                <div class="control">
+                  <input name="name" class="input" type="text" />
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">Food Preference</label>
+                <div class="control">
+                  <input name="preferece" class="input" type="text" />
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">Veggie or Vegan</label>
+                <div class="control">
+                  <label class="radio">
+                    <input type="radio" name="response1" />
+                    Yes
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="response2" />
+                    No
+                  </label>
+                </div>
+              </div>
+              <button class="button">Submit</button>
+            </form>
+          </div>
+          
+      </div>
+      
+    </div>
+
+    </div>
+  </body>
+</html>
