@@ -21,7 +21,7 @@
     justify-content: space-around;
     align-items: center;
   }
-  .links{
+  .links{ 
 
     border: 1px solid #fff;
     display: flex;
@@ -55,27 +55,25 @@
     justify-content: center;
   }
   .carousel {
-    width: 100%;
-    mad-width:900px;
+    width:900px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     align-items: center;
+    overflow: hidden;
   }
   
-  .carousel .carousel-item,
-  .carousel .carousel-item--hidden {
+  .carousel .carousel-item {
     display: none;
   }
   
-  .carousel .carousel-item img {
-    width: 100%;
-    max-width: 500px;
+  .carousel-item img {
+    width: 500px;
     height: auto;
   }
   
-  .carousel .carousel-item--visible {
+  .carousel-item.visible {
     dispaly: block;
   }
   
