@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Michael Chen Lab 3: Flexbox Demo</title>
+    <title>Michael Chen Lab 4: Browser Events and Selectors</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="header-bar">
-        <p><strong>Michael Chen Lab 3: Flexbox Demo</strong></p>
+        <p><strong>Michael Chen Lab 4: Browser Events and Selectors</strong></p>
     </div>
     <div class="menu-container">
       <div class="menu">
@@ -32,29 +32,26 @@
       </div>
     </div>
     <div class="photo-grid-container">
-      <div class="photo-grid">
-        <div class="photo-grid-item first-item">
-          <img src="images/one.svg" />
+        <div class='carousel'>
+            <div class='carousel-item carousel-item--visible'><img scr='images/one.svg'/></div>
+            <div class='carousel-item'><img scr='images/two.svg'/></div>
+            <div class='carousel-item'><img scr='images/three.svg'/></div>
+            <div class='carousel-item'><img scr='images/four.svg'/></div>
+            <div class='carousel-item'><img scr='images/five.svg'/></div>
+            
+            <div class='carousel-button'>
+                <div class='previous'>Prev</div>
+                <div class='next'>Next</div>
+            </div>
         </div>
-        <div class="photo-grid-item">
-          <img src="images/two.svg" />
-        </div>
-        <div class="photo-grid-item">
-          <img src="images/three.svg" />
-        </div>
-        <div class=" photo-grid-item">
-            <img src="images/four.svg" />
-        </div>
-        <div class="photo-grid-item last-item">
-            <img src="images/five.svg" />
-        </div>
-        </div>
-      </div>
+
     </div>
     <div class='footer'>
         <div class='footer-item footer-one'>footer item 1</div>
         <div class='footer-item footer-two'>footer item 1</div>
         <div class='footer-item footer-three'>footer item 1</div>
-      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
